@@ -80,4 +80,3 @@ class BasicAuth(Auth):
         email, password = self.extract_user_credentials(credentials)
         return self.user_object_from_credentials(user_email=email,
                                                  user_pwd=password)
-    
